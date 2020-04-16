@@ -1,0 +1,171 @@
+.mt-100{
+  margin-top: 100px;
+}
+
+.text-center{
+  text-align: center;
+}
+
+.app-footer {
+  color: white;
+  font-weight: bold
+}
+
+#app-navbar{
+overflow: hidden;
+text-decoration: none;
+color: white;
+}
+
+.navbar{
+  position: fixed !important;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%
+}
+
+.m-90{
+  margin-top: 90px;
+}
+
+.mt-50 {
+  margin-top: 50px;
+}
+
+.mb-50 {
+  margin-bottom: 50px;
+}
+
+.text-heading{
+  color:#5cb85c;
+  font-weight: bold;
+  text-align: center;
+}
+
+.h1.thick {
+  font-weight: bold;
+}
+
+.fa-trash{
+  color: red !important;
+}
+
+.fa-user-circle{
+  color:#5cb85c;
+}
+
+.fa-cart-plus{
+  color:#5cb85c;
+}
+
+.fa-heart{
+  color:#5cb85c;
+}
+
+.fa-search{
+  color:#5cb85c;
+}
+
+.card-body{
+  padding: 0 !important;
+}
+
+.paddings-fridge{
+  padding-top: 2.5rem !important;
+  padding-bottom: 1.5rem !important;
+}
+
+.margin-fridge-form{
+  margin-top: 5rem;
+  margin-bottom: 3rem;
+}
+
+.recipe-title{
+  font-weight: bold;
+  text-align: center;
+}
+
+.bold{
+  font-weight: bold;
+}
+
+.recipe ul{
+  list-style-type: none;
+  
+}
+
+.recipe ul li::before{
+  content: "\2022";
+  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: green;
+  /* Change the color */
+  font-weight: bold;
+  /* If you want it to be bold */
+  display: inline-block;
+  /* Needed to add space between the bullet and the text */
+  width: 1em;
+  /* Also needed for space (tweak if needed) */
+  margin-left: -1em;
+  /* Also needed for space (tweak if needed) */
+  font-size: 16px;
+}
+
+.float-right{
+  float: right;
+  margin-right: 25px;
+}
+
+.recipe .fa-heart{
+  color:red;
+  text-shadow: 3px 3px black;
+  font-size: 45px;
+}
+
+/* html{
+  background-image: url('./test.jpeg');
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.image-background{
+  z-index: -1;
+  background-color: transparent;
+} */
+
+body,
+html {
+  height: 100%;
+}
+
+.bg {
+  background-image: url("fridgRaider.jpg");
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.background {
+  background:#DCF2FF;
+  color: #1bc241;
+  height: 100vh;
+  padding: 40px;
+  font-family: 'ROBOTO';
+  text-align: center;
+}
+
+/* .container {
+  width: 200px;
+  height: 120px;
+}
+
+.container img {
+  width: 100%;
+  height: auto;
+} */
+
+
