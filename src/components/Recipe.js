@@ -1,7 +1,7 @@
 import React from "react";
 // import {useHistory} from 'react-router-dom'
 import API from "../API";
-const API_KEY = "51a31618b45e4d19b2ca2e2aba234833";
+const API_KEY = "5412b0d425c04f9c8816dae3af488cdd";
 class Recipe extends React.Component {
   constructor(props) {
     super(props)

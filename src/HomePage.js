@@ -10,7 +10,7 @@ const HomePage = () => {
             <div className="background">
                 <div class='text-center container'>
                     <div>
-                        <h1 className="bold">FRIDGE RAIDER</h1>
+                        <h1 className="font-homepage">FRIDGE RAIDER</h1>
                         < div class = "image-container">
                             <img src={FridgeHome} alt="image"/>
                         </div>

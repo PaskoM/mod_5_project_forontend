@@ -33,7 +33,7 @@ class Suggestions extends React.Component {
     }
 
     fetchSuggestions() {
-        const API_KEY = "51a31618b45e4d19b2ca2e2aba234833"
+        const API_KEY = "5412b0d425c04f9c8816dae3af488cdd"
         console.log(this.props.query)
         //if (this.state.recipes.length === 0 ){
         fetch(`https://api.spoonacular.com/recipes/findByIngredients?ingredients=${this.props.query}&apiKey=${API_KEY}`)

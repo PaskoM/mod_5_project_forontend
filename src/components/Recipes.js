@@ -1,21 +1,40 @@
 import React from "react";
 import { Link } from 'react-router-dom';
 
-const Recipes = ({ title, image, id, likes }) => {
-  return (
-    <div class="col-md-6 mb-3">
-        <div class="card">
-            <img class="card-img-top" src={image} alt="item"/>
-            <Link>
-              <div class="mask rgba-white-slight"></div>
-            </Link>
-          <div class="card-body">
-          <h4 class="card-title">{title}</h4>
-            <hr/>
-          <p class="card-text text-muted font-weight-light">Likes: {likes}</p>
-          </div>
+const Recipes = ({ title, image, matchingIngredients, missingIngredients, missedIngredients, id, likes }) => {
+    return (
+        
+        <div class="list-section">
+            <div class="wrap-list-rc">
+              
+              <div class="lrc-item">
+                  <div class="lrc-content">
+                    <div class="lrc-img">
+                      <img src={image} alt="item"/>
+                    </div>
+                    <div class="lrc-desc">
+                      <div class="lrc-title">{title}</div>
+                      <div class="lrc-text">
+                                Matching Ingredients:{matchingIngredients}<br/> 
+                                Missing Ingredients: {missingIngredients}<br />
+                                Missed Ingredients: {missedIngredients.map((ingredient) =>
+                                  <li>{ingredient.name}</li>)}
+                      </div>
+                      <div class="lrc-button">
+                        <div class="lrcb-left">
+                                    <span class="lhc like"><i class="fas fa-heart"></i> {likes} </span>
+                        </div>
+                        <div class="lrcb-right">
+                          <Link className="btn btn-success btn-sm" to={`/recipes/${id}`}>View Recipe</Link>
+                        </div>
+                        <div class="clear"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
         </div>
-      </div>
+            
     )
 }
 
