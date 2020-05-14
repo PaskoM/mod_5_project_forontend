@@ -73,11 +73,6 @@ class FridgeCollection extends React.Component {
         }
     }
 
-//       renderIngredients = () => {
-//     if (this.state.list) {
-//       return this.state.ingredients.map(ingredient => <FridgeList name={ingredient.name} key={ingredient.id} id={ingredient.id} deleteIngredient={this.removeIngredient} />)
-//     }
-//   }
     
     render() {
         console.log(this.state.ingredients)
