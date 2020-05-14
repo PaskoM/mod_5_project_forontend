@@ -59,7 +59,6 @@ class App extends React.Component {
       user: user,
       id: id
     })
-    // console.log(user)
   }
 
   signOut = () => {
