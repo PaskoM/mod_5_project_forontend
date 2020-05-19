@@ -1,6 +1,5 @@
 import React from "react"
 import Favourite from "./Favourite"
-// import { Link } from "react-router-dom"
 import API from "../API";
 
 class Favourites extends React.Component {
