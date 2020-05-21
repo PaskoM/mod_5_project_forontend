@@ -75,7 +75,6 @@ class App extends React.Component {
     })
   }
 
-  // loggedIn = () => this.state.user !== null ? true : false
   
   loggedIn = () => localStorage.token ? true : false
 
