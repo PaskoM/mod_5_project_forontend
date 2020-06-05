@@ -16,7 +16,6 @@ import Footer from './containers/Footer'
 import API from "./API.js"
 
 
-// Switch
 
 class App extends React.Component {
   constructor() {
