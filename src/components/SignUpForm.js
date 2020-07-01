@@ -64,7 +64,7 @@ class SignUpForm extends React.Component{
                                 
         <div class="row-forgot">
             <Link to="/sign-in">Already registered? Sign In</Link>
-                                </div>
+            </div>
                                 
     </div>
 </div>

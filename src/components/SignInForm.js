@@ -20,7 +20,6 @@ class SignInForm extends React.Component {
         e.preventDefault()
         API.signIn(this.state)
             .then(json => { console.log(json); this.props.signIn(json.username, json.token, json.user, json.id)})
-        // this.props.history.push('/home')
     }
 
     render() {
