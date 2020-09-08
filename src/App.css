@@ -142,13 +142,13 @@ html {
   height: 100%;
 }
 
-.bg {
+/* .bg {
   background-image: url("fridgRaider.jpg");
   height: 100vh;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-}
+} */
 
 .background {
   background:#DCF2FF;
