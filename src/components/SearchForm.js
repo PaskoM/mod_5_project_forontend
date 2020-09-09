@@ -36,7 +36,7 @@ const SearchForm = () => {
 
   return (
               <div>
-            <div class="container">
+          <div class="container">
                 <section class="dark-grey-text text-center">
                     <div class="row">
                         <div class="col-12 col-sm-8">
