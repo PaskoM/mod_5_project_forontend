@@ -6,7 +6,7 @@ import { Route } from 'react-router-dom'
 
 const SearchForm = () => {
 
-    const API_KEY = "5412b0d425c04f9c8816dae3af488cdd";
+    const API_KEY = "e3e4ca6e19d84a2c81c8c53e74c86e0f";
     
     const [recipes, setRecipes] = useState([]);
     const [search, setSearch] = useState('');

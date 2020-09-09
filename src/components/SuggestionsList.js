@@ -9,7 +9,7 @@ const SuggestionsList = ({ image, title, matchingIngredients, missingIngredients
               <div class="lrc-item">
                   <div class="lrc-content">
                     <div class="lrc-img">
-                      <img src={image} alt="item"/>>
+                      <img src={image} alt="item"/>
                     </div>
                     <div class="lrc-desc">
                       <div class="lrc-title">{title}</div>
