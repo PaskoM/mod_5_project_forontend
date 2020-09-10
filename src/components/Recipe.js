@@ -1,5 +1,4 @@
 import React from "react";
-// import {useHistory} from 'react-router-dom'
 import API from "../API";
 const API_KEY = "e3e4ca6e19d84a2c81c8c53e74c86e0f";
 class Recipe extends React.Component {
@@ -158,7 +157,6 @@ class Recipe extends React.Component {
         const missingIngredients = ingredientsNames.filter(el => !fridgeItemsNames.includes(el))
         // const intersection2 = ingredientsNames.filter(element => fridgeItemsNames.map(i => i === element));
         console.log(intersection)
-        // console.log(myArray)
         console.log(this.props.id)
     return ( <div className = "" >
       <div className="recipe my-5" >
