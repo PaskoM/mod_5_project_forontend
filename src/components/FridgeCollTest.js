@@ -98,8 +98,6 @@ class FridgeCollection extends React.Component {
                 </section>
             </div>
             <FridgeList ingredients={this.state.ingredients} deleteIngredient={this.removeIngredient} />
-             {/* <button onClick={() => this.props.history.push('/suggestions')}>Search recipes</button> */}
-            {/* <Suggestions query={this.setQuery()} /> */}
             <Suggestions query={this.setQuery()} ingredients={this.state.ingredients}/>
         </div>
   );
