@@ -47,10 +47,6 @@ class Recipe extends React.Component {
         recipe_id: recipe.id,
         image: recipe.image
       }
-      // if (this.state.favourites.includes(recipe)) return
-      // this.setState({
-        //   favourites: [...this.state.favourites, recipe]
-        // })
         API.saveRecipe(object)
         .then(data => console.log(data))
         console.log(recipe)
@@ -100,7 +96,6 @@ class Recipe extends React.Component {
         save: isSaved
       })
     }
-
       }
   
   
@@ -145,9 +140,6 @@ class Recipe extends React.Component {
               </div>
             <div className="col-md-6 col-sm-6 col-lg-6">
               <p className="bold">Missing Ingredients from your fridge: </p>
-                {/* <button onClick={() => this.favouritesIncluded()}>here</button> */}
-                {/* <li>{this.missingIngredients()}</li> */}
-                {/* <ul>{this.ingredientsNames.filter(el => this.fridgeItemsNames.includes(el))(el => <li>{el}< button onClick = {() => {this.addToShoppingList(el)}}> Add to shopping list </button></li>)}</ul> */}
                 <ul>{missingIngredients.map(el => <li>{el}< button className="btn-danger float-right" onClick = {() => {this.addToShoppingList(el)}}> Add</button></li>)}</ul>
               </div>
             </div>
