@@ -125,11 +125,8 @@ class Recipe extends React.Component {
         const activeRecipe = this.state.recipe;
         const ingredientsNames = this.state.ingredients.map(ingredient => ingredient.name)
         const fridgeItemsNames = this.props.fridgeItems.map(item => item.name)
-        // const missingOnes = ingredientsNames.filter(element => element.reduce(fridgeItemsNames));
         const intersection = ingredientsNames.filter(element => fridgeItemsNames.includes(element));
-        // const intersection2 = intersection.filter(element => fridgeItemsNames.includes(element));
         const missingIngredients = ingredientsNames.filter(el => !fridgeItemsNames.includes(el))
-        // const intersection2 = ingredientsNames.filter(element => fridgeItemsNames.map(i => i === element));
         console.log(intersection)
         console.log(this.props.id)
     return ( <div className = "" >
