@@ -130,7 +130,7 @@ class Recipe extends React.Component {
         <img className="recipe" src = {activeRecipe.image} alt = {activeRecipe.title}/>
         <div className="container">
           <h4 className="recipe-title bold my-3" > {activeRecipe.title} </h4>
-          <p>  <span className="bold">Preparation time:</span> {activeRecipe.readyInMinutes} min <i class="fas fa-clock"></i>{this.state.save ? null :<button className="float-right my-3" onClick={() => this.addToFavorites()}><i class="fas fa-heart"></i></button> }</p>
+          <p>  <span className="bold">Preparation time:</span> {activeRecipe.readyInMinutes} min <i class="fas fa-clock"></i>{this.state.save ? null :<button className="btn-success float-right my-3" onClick={() => this.addToFavorites()}>Save Recipe</button> }</p>
           <p>  <span className="bold"> Dish Type:</span> {activeRecipe.dishTypes} </p>
           <p> <span className="bold">Instructions: </span> {activeRecipe.instructions} </p>
           <div className="row">
