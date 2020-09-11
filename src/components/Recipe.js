@@ -103,32 +103,6 @@ class Recipe extends React.Component {
 
       }
   
-  // componentDidUpdate() {
-  //   const names = this.props.fridgeItems.map(item => item.name)
-  //   if (this.state.fridgeNames.length === 0){
-  //   this.setState({
-  //     fridgeNames: names
-  //   })
-  //   }
-  //     }
-  
-  //     missingIngredients = () => {
-        
-  //       return this.state.ingredients.map(ingredient => ingredient.name).filter(el => !this.state.fridgeNames.includes(<li>{el}</li>))
-        
-  //     }
-  
-  //     ingredientsNames = () => {
-  //       return this.state.ingredients.map(ingredient => ingredient.name)
-  //     }
-  
-  //     fridgeItemsNames = () => {
-  //       return this.props.fridgeItems.map(item => item.name)
-  //     }
-  
-  //     intersection = () => {
-  //       return this.ingredientsNames.filter(element => this.fridgeItemsNames.includes(element));
-  //     }
   
   missingIngredients = () => {
     if (this.props.fridgeItems) {
