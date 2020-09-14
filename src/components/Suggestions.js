@@ -60,7 +60,6 @@ class Suggestions extends React.Component {
             < div className='text-center container'>
                 <button type="button" class="btn btn-success my-3 btn-rounded" onClick={() => this.changeSuggestions()}>{this.state.suggestions ? "Suggestions" : "Show Suggestions"}</button>
                 {this.state.suggestions ? this.renderSuggestions() : null}
-                {/* <SuggestionsList key={recipe.id} id={recipe.id} title={recipe.title} image={recipe.image} matchingIngredients={recipe.usedIngredientCount} missingIngredients={recipe.missedIngredientCount} likes={recipe.likes} /> */}
         </div>
         )                
     }
