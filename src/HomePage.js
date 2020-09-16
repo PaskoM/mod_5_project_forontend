@@ -1,7 +1,7 @@
 import React, { Fragment } from 'react'
 import { Link } from 'react-router-dom'
 import FridgeHome from './fridgeHome.png'
-// import BackgroundImage from './BackgroundImage.js'
+
 
 
 const HomePage = () => {
