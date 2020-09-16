@@ -142,13 +142,6 @@ html {
   height: 100%;
 }
 
-/* .bg {
-  background-image: url("fridgRaider.jpg");
-  height: 100vh;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-} */
 
 .background {
   background:#DCF2FF;
@@ -159,15 +152,6 @@ html {
   text-align: center;
 }
 
-/* .container {
-  width: 200px;
-  height: 120px;
-}
-
-.container img {
-  width: 100%;
-  height: auto;
-} */
 
 .font-homepage{
   font-family: 'Fredoka One',
