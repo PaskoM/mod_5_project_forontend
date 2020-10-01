@@ -47,7 +47,6 @@ componentDidUpdate = () => {
   if (this.state.user_id !== null && this.state.list) {
     API.getShopping(this.props.id)
       .then(data =>
-        // console.log(data)
         this.setState({
           list: data.shoppings
         })
